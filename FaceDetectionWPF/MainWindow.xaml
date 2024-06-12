@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="0">
+            <Button x:Name="StartButton" Content="Start" Click="StartButton_Click" Margin="5"/>
+            <Button x:Name="StopButton" Content="Stop" Click="StopButton_Click" Margin="5"/>
+        </StackPanel>
+        <Image x:Name="MainImage" Grid.Row="1" Stretch="Uniform"/>
     </Grid>
 </Window>
