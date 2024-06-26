@@ -14,4 +14,8 @@
     <PackageReference Include="Emgu.CV.UI" Version="4.9.0.5494" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Framework.csproj" />
+  </ItemGroup>
+
 </Project>
