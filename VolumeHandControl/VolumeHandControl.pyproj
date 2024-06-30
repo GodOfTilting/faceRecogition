@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>1e7cf75b-d2a0-493f-9586-56c824c78da4</ProjectGuid>
+    <ProjectGuid>009edc8f-d255-4788-8436-824bce3926dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Main.py</StartupFile>
+    <StartupFile>VolumeHandControl.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Hand Tracking</Name>
-    <RootNamespace>Hand Tracking</RootNamespace>
-    <InterpreterId>MSBuild|DefaultEnv|$(MSBuildProjectFullPath)</InterpreterId>
+    <Name>VolumeHandControl</Name>
+    <RootNamespace>VolumeHandControl</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,20 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="HandTrackingModule.py" />
-    <Compile Include="Main.py" />
     <Compile Include="VolumeHandControl.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Interpreter Include="DefaultEnv\">
-      <Id>DefaultEnv</Id>
-      <Version>3.9</Version>
-      <Description>DefaultEnv (Python 3.9 (64-bit))</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>X64</Architecture>
-    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
