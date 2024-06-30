@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceRecognition", "FaceReco
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework", "Framework\Framework.csproj", "{10D9BF7B-8331-4B2C-AAFC-A8F8511644DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestureDetection", "GestureDetection\GestureDetection.csproj", "{774D8C61-A02E-4E16-AEDF-F0EC4C7831FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestureDetection", "GestureDetection\GestureDetection.csproj", "{774D8C61-A02E-4E16-AEDF-F0EC4C7831FA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Hand Tracking", "Hand Tracking\Hand Tracking.pyproj", "{1E7CF75B-D2A0-493F-9586-56C824C78DA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,8 @@ Global
 		{774D8C61-A02E-4E16-AEDF-F0EC4C7831FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{774D8C61-A02E-4E16-AEDF-F0EC4C7831FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{774D8C61-A02E-4E16-AEDF-F0EC4C7831FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7CF75B-D2A0-493F-9586-56C824C78DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7CF75B-D2A0-493F-9586-56C824C78DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
