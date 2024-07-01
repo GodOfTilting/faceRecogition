@@ -25,6 +25,7 @@
     <Compile Include="FaceMeshModule.py" />
     <Compile Include="HandTrackingModule.py" />
     <Compile Include="Main.py" />
+    <Compile Include="PoseEstimationModule.py" />
     <Compile Include="VolumeHandControl.py" />
   </ItemGroup>
   <ItemGroup>

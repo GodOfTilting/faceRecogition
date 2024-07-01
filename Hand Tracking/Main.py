@@ -1,4 +1,4 @@
-from FaceMeshModule import FaceMeshDetector
+from FaceMeshModule import PoseEstimationModule
 
 if __name__ == "__main__":
-    FaceMeshDetector.Start()
+    PoseEstimationModule.Start()
