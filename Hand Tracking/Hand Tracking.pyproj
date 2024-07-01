@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FaceMeshModule.py" />
+    <Compile Include="FingerCountingModule.py" />
     <Compile Include="HandTrackingModule.py" />
     <Compile Include="Main.py" />
     <Compile Include="PoseEstimationModule.py" />
@@ -38,6 +39,12 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FingerImages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FingerImages\1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

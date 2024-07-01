@@ -1,5 +1,5 @@
-from PoseEstimationModule import PoseEstimator
+import FingerCountingModule as fcm
 
-if __name__ == "__main__":
-    pose_estimator = PoseEstimator()
-    pose_estimator.run()
+folderpath = "FingerImages"
+finger_counter = fcm.FingerCounter(folderpath)
+finger_counter.start()
