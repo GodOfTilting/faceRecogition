@@ -1,4 +1,5 @@
-from FaceMeshModule import PoseEstimationModule
+from PoseEstimationModule import PoseEstimator
 
 if __name__ == "__main__":
-    PoseEstimationModule.Start()
+    pose_estimator = PoseEstimator()
+    pose_estimator.run()
